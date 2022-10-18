@@ -1,20 +1,52 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?cs=srgb&dl=pexels-rene-asmussen-1581384.jpg&fm=jpg&_gl=1*sffpn2*_ga*NDQzNDM4ODQ5LjE2NjYwNDc2NTY.*_ga_8JE65Q40S6*MTY2NjA0NzY1OS4xLjEuMTY2NjA0NzcxMS4wLjAuMA..');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 h1 {
-    color: cornflowerblue
+    color: burlywood;
 }
 
 img {
-    width: 400px;
+    width: 250px;
 }
 
 #thirdDiv {
     height: 600px;
     width: 500px;
-    background-color: bisque;
-    padding: 50px;
-    border: 10px blueviolet solid;
+    background-color: rgba(119, 81, 35, 0.5);
+    padding: 10px;
+    border: 5px rgb(80, 21, 21) solid;
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
 }
+
+
+/** Centrar los div en la página
+  * Centrar todos los elementos en la página
+  * [Lea sobre el posicionamiento y use la regla de posición en sus estilos](https://es.learnlayout.com/index.html)
+  * Lea sobre flexbox y use flexbox para centrar todos los elementos en la página */
